@@ -1,0 +1,13 @@
+{
+  "name": "app-js",
+  "version": "0.1.0",
+  "description": "Glue code for interacting with CKB",
+  "main": "index.js",
+  "repository": "https://github.com/bitrocks/ckb-anyone-can-pay-to-multisig",
+  "author": "Peng Hu",
+  "license": "MIT",
+  "dependencies": {
+    "@ckb-lumos/common-scripts": "0.8.0",
+    "@ckb-lumos/indexer": "0.8.0"
+  }
+}
