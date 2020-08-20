@@ -1,4 +1,4 @@
-# CKB Crowdfund
+# RFC: CKB Crowdfund(WIP)
 
 ## Intro
 
@@ -37,6 +37,8 @@ Todo
 ## Transaction Examples
 
 1. LauchCrowdfund
+
+Anyone can lauch a crowdfund event, create a crowdfund cell and a recipit cell.
 
 ```
 Inputs:
@@ -78,6 +80,8 @@ args: <PubKeyHash B> <CKB Target amount: 10000> <Expiraion block height: 3000000
 ```
 
 2. Deposit
+
+Anyone can deposit to a crowd fund cell before expiration(if it's not a capped fund). After expiration, all deposit would be rejected no matter whether the target is meet or not.
 
 ```
 Inputs:
